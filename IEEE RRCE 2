@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IEEE Student Branch website at RajaRajeswari College of Engineering.">
+  <title>IEEE SB RRCE</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; }
+    body { font-family: Arial, sans-serif; background: #f5f7fb; }
+    .notice {
+      padding: 10px 16px;
+      text-align: center;
+      font-size: 13px;
+      color: #334155;
+      background: #eef2ff;
+    }
+    iframe { display: block; width: 100%; height: calc(100% - 38px); border: 0; }
+    .fallback { padding: 24px; text-align: center; }
+    .fallback a { color: #1d4ed8; }
+  </style>
+</head>
+<body>
+  <div class="notice">IEEE Student Branch — RajaRajeswari College of Engineering</div>
+  <iframe
+    src="https://ieee-hub-deployment.netlify.app/"
+    title="IEEE SB RRCE Website"
+    loading="eager"
+    allow="fullscreen"
+  >
+    <div class="fallback">
+      Your browser cannot display the embedded website.
+      <a href="https://ieee-hub-deployment.netlify.app/" target="_blank" rel="noopener">
+        Open IEEE Hub
+      </a>
+    </div>
+  </iframe>
+</body>
+</html>
